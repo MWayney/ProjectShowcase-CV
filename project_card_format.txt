@@ -1,0 +1,21 @@
+<div class="card">
+                    <img src="./resources/images/Risk_of_Rain_2.jpg" id="ror2_lookup" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">RoR2 - Item Inspector</h5>
+                        <p class="card-text">Web application for quickly referencing items in the game Risk of Rain 2.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./resources/images/Risk_of_Rain_2.jpg" id="unity_demo" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">3rd Person Character</h5>
+                        <p class="card-text">Simple demo of a controlled character developed in Unity, based on the game SMITE</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./resources/images/Risk_of_Rain_2.jpg" id="img_analysis" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Video Analysis</h5>
+                        <p class="card-text">Python based image processing application using **</p>
+                    </div>
+                </div>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    
+    <head>
+        <!-- Page title and short description -->
+        <title></title>
+        <meta name="description" content=""/>
+        <!-- Words relevant to the page -->
+        <meta name="keywords" content=""/>
+        <!-- General page parameters -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="author" content="Matthew Wayne"/>
+        <!-- Bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <!-- Google font CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <!-- JavaScript load -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="./resources/scripts/main.js"></script>
+        <!-- CSS load -->
+        <link href="./resources/stylesheets/default.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <!-- BODY with default semantic elements -->
+    <body>
+        <!-- HEADER -->
+        <header class="container-fluid sticky-top">
+            <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item"><a class="active nav-link" href="#aboutMe">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <!--  MAIN  -->
+        <main class="container">
+            <div id="aboutMe" class="">
+                <div id="blurb" class="">
+                    <p><span class="fs-2" style="color:#7574b1">My name is Matthew Wayne and I am an aspiring Software Developer.</span>
+                    <br>After studying at Plymouth University and achieving a BEng in Robotics, I have taught myself popular programming languages such as <b>HTML</b> and <b>Python</b>, as well as studying the <b>Unity API</b> with <b>C#</b>.</p>
+                </div>
+                <div id="imgOfMe" class="">
+                    <img src="./resources/images/limmy.jpg" id="_img" class="rounded-5">
+                </div>
+            </div>
+            <div id="projects" class="border-top">
+                <div id="proj1" class="row">
+                    <div class="col accordian-item">
+                        <button class="accordian-button" type="button" data-bs-toggle="collapse" data-bs-target="#proj1_desc">
+                            <div class="row">    
+                                <img src="./resources/images/Risk_of_Rain_2.jpg" id="img_p1" class="col">
+                                <h1 class="col projHead">RoR2 - Item Inspector</h1>
+                            </div>
+                            <div id="proj1_desc" class="row accordian-collapse collapse">
+                                <div class="col-9">Web application that gives detailed descriptions of items and characters in the game <b>"Risk of Rain 2"</b>. Can select items and characters to view the overall statistics of the build.</div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="col-1 goTo">View</button>
+                </div>
+                <div id="proj2" class="row">
+                    <div class="col accordian-item">
+                        <button class="accordian-button" type="button" data-bs-toggle="collapse" data-bs-target="#proj2_desc">
+                            <div class="row">
+                                <img src="./resources/images/Risk_of_Rain_2.jpg" id="img_p2" class="col">
+                                <h1 class="col projHead">3rd Person Action Controller</h1>
+                            </div>
+                            <div id="proj2_desc" class="row accordian-collapse collapse">
+                                <div class="col-9">Simple demonstration for a 3rd person character controller made with "Unity". Character concept and actions are based on the game "SMITE".</div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li>C#</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="col-1 goTo">View</button>
+                </div>
+                <div id="proj3" class="row">
+                    <div class="col accordian-item">
+                        <button class="accordian-button" type="button" data-bs-toggle="collapse" data-bs-target="#proj3_desc">
+                            <div class="row">
+                                <img src="./resources/images/Risk_of_Rain_2.jpg" id="img_p3" class="col">
+                                <h1 class="col projHead">Project 3</h1>
+                            </div>
+                            <div id="proj3_desc" class="accordian-collapse collapse">
+                                <div class="col-9"></div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li>C#</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="col-1 goTo">View</button>
+                </div>
+            </div>
+            <div id="contact" class="container border-top">
+                <div class="row">
+                    <div class="col border-right" id="email">
+                        <p>M_Wayney@hotmail.co.uk</p>
+                    </div>
+                    <div class="col" id="phone">
+                        <p>07702595810</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="text-end border-top">Last Updated: 26/08/2023</p>
+        </footer>
+    </body>
+</html>
